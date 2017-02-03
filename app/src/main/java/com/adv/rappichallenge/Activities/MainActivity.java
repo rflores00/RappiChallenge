@@ -104,6 +104,7 @@ public class MainActivity extends BaseActivity {
                 if(connetion_type == SERVICE_CONNETION){
                     connetion_type = LOCAL_CONNETION;
                     reader.set_iDataRepository(SQL.getInstance(MainActivity.this));
+                    progress.dismiss();
                     bound_list();
                 }else {
                     progress.dismiss();
