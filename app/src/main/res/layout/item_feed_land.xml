@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_small">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iconApp"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/ic_cached"
+            android:contentDescription="@string/none"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.adv.rappichallenge.helpers.CustomTextView
+                style="@style/TextView_Title"
+                android:id="@+id/textAppName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginStart="@dimen/padding_small"
+                android:gravity="center_vertical"
+                android:text="@string/global.dummy.title"/>
+
+            <com.adv.rappichallenge.helpers.CustomTextView
+                android:id="@+id/textPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginStart="@dimen/padding_small"
+                android:text="@string/global.dummy.title"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

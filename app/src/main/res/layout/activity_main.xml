@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.adv.rappichallenge.Activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearOffline"
+        android:layout_width="match_parent"
+        android:background="@color/colorPink"
+        android:visibility="gone"
+        android:layout_height="45dp">
+        <com.adv.rappichallenge.helpers.CustomTextView
+            android:id="@+id/textConnectionState"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="@string/global.offline"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="0.5dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:minHeight="90dp"
+        android:numColumns="auto_fit"
+        android:visibility="gone"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

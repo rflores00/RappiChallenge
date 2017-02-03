@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="details.weight.col.1">2</integer>
+    <integer name="details.weight.col.2">8</integer>
+</resources>
