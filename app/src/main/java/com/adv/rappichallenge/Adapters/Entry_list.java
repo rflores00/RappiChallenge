@@ -63,7 +63,7 @@ public class Entry_list extends BaseAdapter {
         }
 
         Picasso.with(context)
-                .load(item.getIm_image().get(0).getLabel())
+                .load(item.getIm_image().get(1).getLabel())
                 .placeholder(R.drawable.ic_cached)
                 .transform(new CircleTransform())
                 .into(holder.icon);
