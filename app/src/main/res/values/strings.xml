@@ -11,13 +11,13 @@
     <string name="notification.title">RappiChallenge</string>
     <string name="notification.body">Updating your local copy.</string>
 
-    <string name="activity.details.name">Name</string>
+    <string name="activity.details.name">Name:</string>
     <string name="activity.details.summary">Summary</string>
-    <string name="activity.details.price">Price</string>
-    <string name="activity.details.contentType">Content Type</string>
+    <string name="activity.details.price">Price:</string>
+    <string name="activity.details.contentType">Content Type:</string>
     <string name="activity.details.rights">Copyrights %1$s</string>
-    <string name="activity.details.category">Category</string>
-    <string name="activity.details.releaseDate">Release Date</string>
+    <string name="activity.details.category">Category:</string>
+    <string name="activity.details.releaseDate">Release Date:</string>
 
 
     <string name="conf.api.base_url">https://itunes.apple.com/us/rss/</string>
